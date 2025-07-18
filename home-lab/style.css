@@ -1,0 +1,46 @@
+body {
+	background: whitesmoke;
+}
+div[id=hl01] {
+	padding: 100px;
+	background: #132541;
+	margin-top: 0;
+}
+div[id=hl02] {
+	padding: 10px;
+	background: #132541;
+	margin-top: 100px;
+}
+div[id=hl03] {
+	padding: 10px;
+	background: #132541;
+	margin-top: 100px;
+}
+.header-x input[type=text] {
+  float: center;
+  padding: 6px;
+  border: none;
+  margin-top: 8px;
+  margin-right: 16px;
+  font-size: 17px;
+  justify-content: flex-start;
+  width: 100%;
+  border-radius: 10px;
+}
+
+/* When the screen is less than 600px wide, stack the links and the search field vertically instead of horizontally */
+@media screen and (max-width: 600px) {
+  .header-x input[type=text] {
+    float: center;
+    display: block;
+    text-align: left;
+    width: 100%;
+    margin: 0;
+    padding: 14px;
+  	justify-content: flex-start;
+    width: 100%;
+  }
+  .header-x input[type=text] {
+    border: 1px solid #ccc;
+  }
+}
